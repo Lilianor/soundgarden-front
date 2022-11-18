@@ -74,7 +74,5 @@ modalForm.addEventListener('submit', event => {
     event_id
   };
 
-  postModal(formData).then(event => {
-    alert(`Você fez ${number_tickets} reserva!`);
-  });
+  postModal(formData);
 });
